@@ -344,7 +344,7 @@ def NumberOfCars(value):
         return 0
     elif value=="2 vehicles":
         return 1
-    elif value=="3 to 4 ":
+    elif value=="3 to 4":
         return 2
     elif value=="5 to 8":
         return 3
