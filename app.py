@@ -394,7 +394,9 @@ def main():
         c=st.sidebar.selectbox("Make",("Select the Make","Pontiac","Toyota","Honda","Mazda","Chevrolet","Accura","Ford","VW","Dodge","Saab","Mercury","Saturn","Nisson","BMW","Jaguar","Porche","Mecedes","Ferrari","Lexus"))
         d=st.sidebar.selectbox("AccidentArea",("Select the AccidentArea","Urban","Rural"))
         e=st.sidebar.selectbox("DayOfWeekClaimed",("Select the DayOfWeekClaimed","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))      
-        f=st.sidebar.selectbox("MonthClaimed",("Select the MonthClaimed","January","February","March","April","May","June","July","Auguest","September","October","November","December"))
+        f=st.sidebar.selectbox("MonthClaimed",("Select the MonthClaimed","January","February","March","April","May","June","July","Auguest","September","October","November","December")) 
+
+        
         g=st.sidebar.selectbox("Sex",("Select the Sex","Male","Female"))
         h=st.sidebar.selectbox("MaritalStatus",("Select the MaritalStatus","Married","Single","Divorced","Widow"))
         i=st.sidebar.number_input("Age")
