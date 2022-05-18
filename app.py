@@ -142,7 +142,7 @@ def MonthClaimed(value):
         return 000
     elif value=="January":
         return 4
-    elif value=="Feruary":
+    elif value=="February":
         return 3
     elif value=="March":
         return 7
