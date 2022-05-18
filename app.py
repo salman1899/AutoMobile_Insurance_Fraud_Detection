@@ -4,7 +4,7 @@ import numpy as np
 from streamlit_option_menu import option_menu
 
 
-model=pickle.load(open("insurance_detect.pkl","rb"))
+model=pickle.load(open("automobile_insurance_detect.pkl","rb"))
 
 
 
