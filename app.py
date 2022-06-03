@@ -367,7 +367,7 @@ def BasePolicy(value):
     
 def prediction(value):
     if value==0:
-        return "TGenuine CLAIM ✅"
+        return "Genuine CLAIM ✅"
     else:
         return "FRAUD CLAIM ❌ DETECTED"
     
